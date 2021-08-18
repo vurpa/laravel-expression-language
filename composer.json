@@ -31,8 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vurpa\\ExpressionLanguage\\": "src",
-            "Vurpa\\ExpressionLanguage\\Database\\Factories\\": "database/factories"
+            "Vurpa\\ExpressionLanguage\\": "src"
         }
     },
     "autoload-dev": {
