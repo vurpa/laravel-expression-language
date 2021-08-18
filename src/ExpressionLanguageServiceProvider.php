@@ -18,11 +18,8 @@ class ExpressionLanguageServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel-expression-language')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-expression-language_table')
-            ->hasCommand(ExpressionLanguageCommand::class);
+            ->name('expression-language')
+            ->hasConfigFile();
     }
 
     public function packageRegistered()
