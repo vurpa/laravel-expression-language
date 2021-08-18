@@ -6,7 +6,6 @@ use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Symfony\Component\Cache\Adapter\Psr16Adapter;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
-use Vurpa\ExpressionLanguage\Commands\ExpressionLanguageCommand;
 
 class ExpressionLanguageServiceProvider extends PackageServiceProvider
 {
