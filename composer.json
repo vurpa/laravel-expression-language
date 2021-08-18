@@ -54,7 +54,7 @@
                 "Vurpa\\ExpressionLanguage\\ExpressionLanguageServiceProvider"
             ],
             "aliases": {
-                "ExpressionLanguage": "Vurpa\\ExpressionLanguage\\ExpressionLanguageFacade"
+                "ExpressionLanguage": "Vurpa\\ExpressionLanguage\\Facades\\ExpressionLanguage"
             }
         }
     },
