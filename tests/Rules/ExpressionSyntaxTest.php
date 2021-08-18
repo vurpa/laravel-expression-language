@@ -2,8 +2,6 @@
 
 namespace Vurpa\ExpressionLanguage\Tests\Rules;
 
-use Symfony\Component\ExpressionLanguage\SyntaxError;
-use Vurpa\ExpressionLanguage\Facades\ExpressionLanguage;
 use Vurpa\ExpressionLanguage\Rules\ExpressionSyntax;
 use Vurpa\ExpressionLanguage\Tests\TestCase;
 
