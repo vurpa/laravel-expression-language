@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Vurpa\ExpressionLanguage\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ExpressionLanguageCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-expression-language';
 
     public $description = 'My command';
 

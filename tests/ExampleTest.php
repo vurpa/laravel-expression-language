@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Vurpa\ExpressionLanguage\Tests;
 
 class ExampleTest extends TestCase
 {
