@@ -37,6 +37,35 @@ use Vurpa\ExpressionLanguage\Facades\ExpressionLanguage;
 ExpressionLanguage::evaluate('1 + 2') // 3
 ExpressionLanguage::compile('1 + 2') // (1 + 2)
 ```
+## Validation rules
+
+### `ExpressionSyntax`
+
+The field under validation must have valid expression syntax.
+
+```php
+// in a `FormRequest`
+
+use Vurpa\ExpressionLanguage\Rules\ExpressionSyntax;
+
+public function rules()
+{
+    return [
+        'expression' => [new ExpressionSyntax()],
+    ];
+}
+```
+
+By default, the rule accepts any variable names in the expression. You can set a list of acceptable names:
+
+```php
+use Vurpa\ExpressionLanguage\Rules\ExpressionSyntax;
+
+new ExpressionSyntax(['foo' => 5, 'bar' => 10]);
+```
+
+* `'foo < bar'` passes
+* `'score > minimum_score'` fails
 
 ## Testing
 
